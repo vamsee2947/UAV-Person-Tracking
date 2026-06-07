@@ -1,4 +1,4 @@
-# Real-Time UAV Person Detection and Tracking using YOLO11s + ByteTrack
+# Aerial Guardian : Real-Time UAV Person Detection and Tracking 
 
 
 ## 1. Dataset Description
