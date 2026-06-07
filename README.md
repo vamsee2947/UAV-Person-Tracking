@@ -163,11 +163,11 @@ The fine-tuned detector was evaluated with ByteTrack and BoT-SORT.
 ## Tracking Results
 
 
-| Pipeline | FPS | MOTA | IDF1 | Mostly Tracked | Mostly Lost | Precision | Recall |
+| Pipeline | FPS | MOTA | IDF1 | Precision | Recall |
 |-|-|-|-|-|-|-|-|
-|YOLO11s Base + ByteTrack|26.18|0.264|0.338|12|51|0.746|0.419|
-|YOLO11s FT + ByteTrack|26.48|0.293|0.395|31|20|0.667|0.618|
-|YOLO11s FT + BoT-SORT GMC|8.14|0.239|0.385|7|93|0.795|0.328|
+|YOLO11s Base + ByteTrack|26.18|0.264|0.33|0.746|0.419|
+|YOLO11s FT + ByteTrack|26.48|0.293|0.395|0.667|0.618|
+|YOLO11s FT + BoT-SORT GMC|8.14|0.239|0.385|0.795|0.328|
 
 
 Fine-tuning improvements:
@@ -182,9 +182,6 @@ Fine-tuning improvements:
 0.338 → 0.395
 
 
-### Mostly Tracked Objects
-
-12 → 31
 
 
 The fine-tuned model detects more small UAV persons while maintaining real-time FPS.
