@@ -1,0 +1,19 @@
+# datasets
+VisDrone2019-MOT-train/
+VisDrone2019-MOT-val/
+finetune_output/
+
+
+# training folders
+runs/
+
+
+# models
+*.pt
+*.onnx
+
+
+# cache
+*.cache
+__pycache__/
+.ipynb_checkpoints/
