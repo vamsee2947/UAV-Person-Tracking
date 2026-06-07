@@ -272,6 +272,17 @@ Base Model Tracking:
 Fine-Tuned Model Tracking:
 
 `demo/YOLO11s_FT_ByteTrack.mp4`
+## Tracking Demo
+
+
+### YOLO11s Base + ByteTrack
+
+![Base Tracking](demo/base_tracking.gif)
+
+
+### Fine-tuned YOLO11s + ByteTrack
+
+![Fine Tuned Tracking](demo/finetuned_tracking.gif)
 
 
 
