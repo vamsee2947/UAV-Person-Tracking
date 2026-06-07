@@ -1,0 +1,10 @@
+
+
+path: C:/Users/VAMSEEKRISHNA.P/Desktop/assignment/finetune_output
+
+train: images/train
+val: images/val
+
+names:
+  0: person
+
