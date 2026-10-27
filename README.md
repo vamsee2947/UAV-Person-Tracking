@@ -164,7 +164,7 @@ The fine-tuned detector was evaluated with ByteTrack and BoT-SORT.
 
 
 | Pipeline | FPS | MOTA | IDF1 | Precision | Recall |
-|-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|
 |YOLO11s Base + ByteTrack|26.18|0.264|0.33|0.746|0.419|
 |YOLO11s FT + ByteTrack|26.48|0.293|0.395|0.667|0.618|
 |YOLO11s FT + BoT-SORT GMC|8.14|0.239|0.385|0.795|0.328|
